@@ -10,7 +10,7 @@
 </div>
 
 <h3 align="center">
-          Live Project :https://sundorom-quiz-app.netlify.app/
+          Live Project :https://sundorom-quiz-for-fun.netlify.app/
 </h3>
 <br />
 
