@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #58158c;
+    --secondary-color: #e8c3ff;
+    --score-color: #A45EDA;
+    --score-bg-color: #fff;
+    --point-table-bg-color: #f0f8ff;
+    --footer-bg-color: #58158c;
+    --footer-hover-bg-color: rgba(236, 185, 255, 0.638);
+    --text-color: #000;
+    --footer-text-color: #fff;
+}
+
+/* Main container */
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./../../Assets/scoreboard-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 50px 50px;
+    min-height: 377px;
+}
+
+/* Score display */
+.score {
+    font-size: 1.2rem;
+    color: var(--score-color);
+    background-color: var(--score-bg-color);
+    border-radius: 50%;
+    padding: 3rem 1.8rem;
+    margin: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.score span {
+    font-size: 2.3rem;
+}
+
+/* Point table */
+.point-table {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    justify-content: center;
+    background-color: var(--point-table-bg-color);
+    color: var(--text-color);
+    border-radius: 15px;
+    max-width: 430px;
+    position: relative;
+    top: 82px;
+}
+
+.semi-table {
+    margin: 8px 6px;
+    padding: 6px 12px;
+    display: flex;
+    width: 155px;
+    align-items: baseline;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.point {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.point-info {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Footer */
+.footer {
+    height: 15rem;
+    bottom: 25px;
+    text-align: center;
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footer-bg-color);
+}
+
+.home-btn {
+    color: var(--footer-text-color);
+    border-radius: 50%;
+    padding: 12px 13px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.home-btn:hover {
+    background-color: var(--footer-hover-bg-color) !important;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-size: 11px;
+    color: var(--footer-text-color);
+}
